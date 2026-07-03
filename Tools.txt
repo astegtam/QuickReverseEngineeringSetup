@@ -68,7 +68,7 @@ for ($i=0; $i -lt 6; $i++) {
     } else {
         Write-Host "   Astegtams setup is installing... Please wait." -ForegroundColor White -NoNewline
     }
-    Start-Sleep -Milliseconds 500
+    Start-Sleep -Milliseconds 250
 }
 
 [Console]::SetCursorPosition(0, [Console]::CursorTop)
