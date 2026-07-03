@@ -2,7 +2,7 @@ Run this command in PowerShell with administrator privileges to install Boxstart
 
 ". { iwr -useb https://boxstarter.org/bootstrapper.ps1 } | iex; Get-Boxstarter -Force"
 
-Then run this command again in PowerShell in order to download the tools.
+Then run this command in PowerShell in order to download the tools.
 
 "Install-BoxstarterPackage -PackageName https://raw.githubusercontent.com/astegtam/QuickReverseEngineeringSetup/refs/heads/main/Tools.txt -DisableReboots"
 
