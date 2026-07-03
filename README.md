@@ -1,4 +1,4 @@
-Run this command in PowerShell with administrator privileges to install Boxstarter and Chocolatey, which are required to download our tools.
+Run this command in PowerShell with administrator privileges to install Boxstarter and Chocolatey, which are required to download our tools.  (You might need to adjust your security settings to allow the installation to complete.)
 
 ". { iwr -useb https://boxstarter.org/bootstrapper.ps1 } | iex; Get-Boxstarter -Force"
 
